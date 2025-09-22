@@ -1,5 +1,6 @@
 import './App.css';
-
+import HelloWorld from './components/HelloWorld';
+import Frases from './components/Frases';
 
 
 
@@ -10,11 +11,12 @@ function App() {
   const name = 'Hugo'
   const newName = name.toUpperCase()
 
+  const url = "https://via.placeholder.com/150"
+
   function sum(a, b) {
     return a+b
   }
 
-  const url = "https://via.placeholder.com/150"
 
   return (
     <div className="App">
@@ -25,6 +27,8 @@ function App() {
       <p>Soma: {2+2}</p>
       <p>Soma: {sum(5,5)}</p>
       <img src={url} alt="Minha imagem"/>
+      <HelloWorld/>
+      {/* <Frases/> */}
     </div>
   );
 }
