@@ -1,13 +1,14 @@
 body {
   padding: 50px;
-  background-color: #efefef;
+  padding-bottom: 500px;
+  background-color: snow;
 }
 
 h1 {
-  color: #333;
+  color: goldenrod;
 }
 
 p {
-  background-color: #999;
+  background-color: #22e2d2;
   padding: 10px;
 }
