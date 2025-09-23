@@ -1,7 +1,7 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 
 
@@ -13,10 +13,13 @@ function App() {
 
   return (
     <div className="App">
-      <HelloWorld/>
+
+      <h1>Testando CSS</h1>
+      <Frase/>
+      <Frase/>
       <SayMyName nome='Hugo'/>
       <SayMyName nome={nome}/>
-      <Pessoa nome='Fernando' idade='22' profissao='Barbeiro' />
+      <Pessoa nome="Fernando" idade="22" profissao="Barbeiro" foto="https://via.placeholder.com/150" />
     </div>
   );
 }
