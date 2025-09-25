@@ -5,7 +5,6 @@ function Form(params) {
         console.log('Cadastrou o usuário!')
     }
 
-    
     return (
         <>
             <h1>Meu cadastro:</h1>
@@ -20,6 +19,5 @@ function Form(params) {
         </>
     )
 }
-
 
 export default Form

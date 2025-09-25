@@ -3,11 +3,7 @@ import Evento from './components/Evento';
 import Form from './components/Form';
 
 
-
-
-
 function App() {
-
 
   return (
     <div className="App">
@@ -19,10 +15,5 @@ function App() {
     </div>
   );
 }
-
-
-
-
-
 
 export default App;

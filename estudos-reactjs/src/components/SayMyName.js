@@ -1,6 +1,4 @@
 
-
-
 function SayMyName(props) {
     return (
         <div>
@@ -8,6 +6,5 @@ function SayMyName(props) {
         </div>
     )
 }
-
 
 export default SayMyName
